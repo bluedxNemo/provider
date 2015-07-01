@@ -28,4 +28,4 @@ redis或mysql单例模式
     //获取数据库对象
     $db = DataProvider::getDataProvider('MYSQL_TEST');
 
-    //数据库连接采用PDO方式
+    //数据库连接采用PDO方式 无需手动关闭连接
